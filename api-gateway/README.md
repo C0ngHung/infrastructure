@@ -17,6 +17,14 @@ The **single entry point** for all external HTTP traffic in the `microservice` s
 
 ---
 
+## Spring Initializr Setup
+
+Here is the Spring Initializr configuration used to bootstrap the API Gateway:
+
+![Spring Initializr Setup](./images/Spring%20Initializr%20api-gateway.png)
+
+---
+
 ## Dependencies
 
 ```groovy

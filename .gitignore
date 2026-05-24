@@ -19,11 +19,5 @@ Thumbs.db
 
 # Logs
 *.log
-
-
-.agents/
-memory-bank/
-
-
 user-service/
 order-service/

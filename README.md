@@ -53,6 +53,32 @@ A production-style backend system built with **Java 21**, **Spring Boot 4.0.6**,
 
 ---
 
+## Spring Initializr Setup Reference
+
+Each microservice was initialized via Spring Initializr with the following configurations:
+
+### 1. Discovery Server
+* **Dependencies**: `Eureka Server` (Spring Cloud Discovery)
+* **Setup Screenshot**:
+![Discovery Server Setup](./images/Spring%20Initializr%20discovery-server.png)
+
+### 2. API Gateway
+* **Dependencies**: `Reactive Gateway` (Spring Cloud Routing), `Eureka Discovery Client`, `OpenFeign` (Spring Cloud Routing)
+* **Setup Screenshot**:
+![API Gateway Setup](./images/Spring%20Initializr%20api-gateway.png)
+
+### 3. User Service
+* **Dependencies**: `Spring Web`, `Spring Data JPA`, `H2 Database`, `Lombok` *(Note: `Eureka Discovery Client` was manually added post-initialization for service discovery)*
+* **Setup Screenshot**:
+![User Service Setup](./user-service/images/Spring%20Initializr.png)
+
+### 4. Order Service
+* **Dependencies**: `Spring Web`, `Spring Data JPA`, `H2 Database`, `Lombok` *(Note: `Eureka Discovery Client` was manually added post-initialization for service discovery)*
+* **Setup Screenshot**:
+![Order Service Setup](./order-service/images/Spring%20Initializr.png)
+
+---
+
 ## Prerequisites
 
 | Tool       | Required Version |

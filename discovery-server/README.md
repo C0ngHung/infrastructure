@@ -16,6 +16,14 @@ The central **Service Registry** for the `microservice` system. Built on **Netfl
 
 ---
 
+## Spring Initializr Setup
+
+Here is the Spring Initializr configuration used to bootstrap the Discovery Server:
+
+![Spring Initializr Setup](./images/Spring%20Initializr%20discovery-server.png)
+
+---
+
 ## Dependencies
 
 ```groovy
