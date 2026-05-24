@@ -1,0 +1,29 @@
+# Gradle build outputs
+.gradle/
+**/build/
+!**/src/**/build/
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+
+.agents/
+memory-bank/
+
+
+user-service/
+order-service/
