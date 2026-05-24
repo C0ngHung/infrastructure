@@ -28,6 +28,7 @@ Here is the Spring Initializr configuration used to bootstrap the Discovery Serv
 
 ```groovy
 dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
 }
 
